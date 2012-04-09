@@ -30,6 +30,7 @@ I will be more than happy to update the Theme with new locales, as soon as I rec
 Currently available in:
 
 * English
+* French
 * German
 
 
