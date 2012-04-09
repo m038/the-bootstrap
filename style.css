@@ -4,8 +4,13 @@ Theme URI:		http://en.wp.obenland.it/the-bootstrap/
 Description:	A WordPress Theme based on Bootstrap, from Twitter. It features a 100% responsive layout, a superb gallery and image handling with a custom image meta widget and carousel for gallery post-formats, a clean and simple design and a lot more! The Bootstrap runs on HTML5 and CSS3, a 12-column grid and comes with custom jQuery plugins. See the Bootstrap documentation on GitHub for reference.
 Author:			Konstantin Obenland
 Author URI:		http://en.wp.obenland.it/
+<<<<<<< HEAD
 Version:		1.3.0
 Tags:			black, blue, white, light, two-columns, right-sidebar, flexible-width, custom-background, threaded-comments, translation-ready, microformats, custom-menu, post-formats, sticky-post
+=======
+Version:		1.2.4
+Tags:			black, blue, white, light, two-columns, right-sidebar, flexible-width, custom-header, custom-background, threaded-comments, translation-ready, microformats, custom-menu, post-formats, sticky-post
+>>>>>>> refs/remotes/origin/master
 
 License:		GNU General Public License v3.0
 License URI:	http://www.gnu.org/licenses/gpl-3.0.html
@@ -67,7 +72,7 @@ h1, h2, h3, h4, h5, h6, .clear {
 }
 
 .entry-content {
-	margin-bottom: 20px;
+	margin-bottom: 18px;
 }
 
 #author-info,
@@ -109,7 +114,7 @@ article.page {
 }
 
 .commentlist ul.children {
-	margin: 10px 0 20px;
+	margin: 10px 0 18px;
 	list-style: none;
 }
 
@@ -163,6 +168,10 @@ img.wp-smiley {
 
 /* =Footer
 -------------------------------------------------------------- */
+
+#colophon .nav-pills {
+	margin: 0;
+}
 
 #site-generator {
 	float: right;
