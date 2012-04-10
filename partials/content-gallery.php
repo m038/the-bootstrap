@@ -59,7 +59,7 @@
 				<?php foreach ( $the_bootstrap_images as $the_bootstrap_image ) : ?>
 				<figure class="item">
 					<?php echo wp_get_attachment_image( $the_bootstrap_image->ID, array( 470, 353 ) ); 
-					if ( has_excerpt( $the_bootstrap_image->ID ) ) :?>
+					if ( has_excerpt( $the_bootstrap_image->ID ) ) : ?>
 					<figcaption class="carousel-caption">
 						<h4><?php echo get_the_title( $the_bootstrap_image->ID ); ?></h4>
 						<p><?php echo apply_filters( 'get_the_excerpt', $the_bootstrap_image->post_excerpt ); ?></p>
