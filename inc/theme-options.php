@@ -242,7 +242,7 @@ function the_bootstrap_theme_options_render_page() {
 		<?php settings_errors(); ?>
 
 		<div id="poststuff">
-			<div id="post-body" class="the-bootstrap columns-2">
+			<div id="post-body" class="obenland-wp columns-2">
 				<div id="post-body-content">
 					<form method="post" action="options.php">
 						<?php
